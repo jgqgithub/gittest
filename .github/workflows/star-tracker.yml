@@ -1,8 +1,8 @@
-name: 只统计 Star ≥ 5万 的仓库
+name: 只统计 Star ≥ 1万 的仓库
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * *"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 统计 Star ≥ 5万 的仓库
+      - name: 统计 Star ≥ 1万 的仓库
         env:
           GH_TOKEN: ${{ secrets.STAR_TRACKER_TOKEN }}
         run: |
@@ -22,25 +22,25 @@ jobs:
           USER=$(gh api user | jq -r '.login')
           
           # 输出标题
-          echo "# 🔥 Star 超过 5万 的顶级仓库" > TOP_STARS.md
+          echo "# 🔥 Star 超过 1万 的仓库" > TOP_STARS.md
           echo "" >> TOP_STARS.md
           echo "| 仓库 | Star 数 |" >> TOP_STARS.md
           echo "|------|--------|" >> TOP_STARS.md
 
-          # 获取所有仓库，并只保留 star ≥ 50000 的
+          # 获取所有仓库，并只保留 star ≥ 10000 的
           gh api "/users/$USER/repos?per_page=100" --paginate | \
           jq -r '
             .[] |
-            select(.stargazers_count >= 10000) |
+            select(.stargazers_count >= 10000) |  # 👈 这里改成 10000
             "| \(.full_name) | \(.stargazers_count) |"
           ' >> TOP_STARS.md
 
-          echo "✅ 统计完成！只保留 Star ≥ 5万 的仓库"
+          echo "✅ 统计完成！只保留 Star ≥ 1万 的仓库"
 
       - name: 提交结果到仓库
         run: |
           git config user.name "bot"
           git config user.email "bot@github.com"
           git add TOP_STARS.md
-          git commit -m "更新 Star ≥5万 仓库列表"
+          git commit -m "更新 Star ≥1万 仓库列表"
           git push
