@@ -2,7 +2,7 @@ name: 全网AI热门仓库（Star≥5万）
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 每天0点执行
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,58 +11,41 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      # 提高搜索上限，GitHub Search API 最多返回 1000 条
-      MAX_RESULTS: 1000
-      MIN_STARS: 50000
-      TOPIC: "ai"  # 你也可以改成 "artificial-intelligence,llm,generative-ai"
     steps:
       - uses: actions/checkout@v5
 
-      - name: 搜索全网 AI 主题 Star≥5万 仓库
+      - name: 搜索全网 AI 仓库 Star ≥ 5万
         env:
           GH_TOKEN: ${{ secrets.STAR_TRACKER_TOKEN }}
         run: |
-          # 搜索语法：topic:ai 且 stars>=50000，按 stars 降序
-          SEARCH_QUERY="topic:$TOPIC stars:>=$MIN_STARS"
-          
-          echo "# 🔥 GitHub 全网 AI 热门仓库（Star ≥ $MIN_STARS）" > AI_TOP50K.md
+          echo "# 🔥 GitHub 全球 AI 热门仓库（Star ≥ 50000）" > AI_TOP50K.md
           echo "更新时间：$(date '+%Y-%m-%d %H:%M:%S')" >> AI_TOP50K.md
           echo "" >> AI_TOP50K.md
           echo "| 排名 | 仓库 | Star 数 | 简介 |" >> AI_TOP50K.md
           echo "|-----|------|---------|------|" >> AI_TOP50K.md
 
-          # 调用 GitHub Search API，分页获取结果
           gh api search/repositories \
-            -q "q=$SEARCH_QUERY sort:stars" \
-            --paginate \
+            -q "q=(ai OR llm OR large-language-model OR generative-ai) stars:>=50000" \
+            -X GET \
             --per-page 100 \
-          | jq -r \
-            --arg min "$MIN_STARS" \
-            '
-            .items[]
-            | select(.stargazers_count >= ($min | tonumber))
-            | [
-                .stargazers_count,
-                .full_name,
-                .description
-              ]
-            | @tsv
-            ' \
-          | sort -k1,1nr \
-          | awk -v rank=1 '
+          | jq -r '
+            .items[] |
+            [
+              .stargazers_count,
+              .full_name,
+              .description
+            ] | @tsv
+          ' | sort -nr | head -20 | awk -v rank=1 '
             {
               printf "| %d | [%s](https://github.com/%s) | %s | %s |\n",
-                rank++, $2, $2, $1, $3
+              rank++, $2, $2, $1, substr($0, index($0,$3))
             }
           ' >> AI_TOP50K.md
-
-          echo "✅ 已筛选并排序所有 AI 主题 Star≥$MIN_STARS 的仓库"
 
       - name: 提交更新（无变化不报错）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add AI_TOP50K.md
-          git commit -m "更新 AI 热门仓库排行榜" || echo "✅ 无变化，跳过提交"
-          git push || echo "✅ 无需推送"
+          git commit -m "更新 AI 仓库 TOP50K" || echo "✅ 无变化"
+          git push || echo "✅ 跳过推送"
