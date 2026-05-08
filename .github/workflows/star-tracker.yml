@@ -15,5 +15,5 @@ jobs:
       - name: Star 统计工具
         uses: fbuireu/github-star-tracker@v1
         with:
-          github-token: ${{ secrets.STAR_TRACKER_TOKEN  }}
+          github-token: ${{ secrets.GITHUB_STAR_TRACKER_TOKEN   }}
           locale: zh-CN
