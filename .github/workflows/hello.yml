@@ -1,0 +1,23 @@
+# 给工作流起个名字（随便写）
+name: 我的第一个 GitHub Action
+
+# 触发条件：什么时候自动运行
+on:
+  push:         # 代码推送到仓库时触发
+    branches:
+      - main    # 只在 main 分支触发
+  workflow_dispatch:  # 允许手动点击运行
+
+# 要执行的任务
+jobs:
+  # 任务名字（随便写）
+  my-first-job:
+    runs-on: ubuntu-latest  # 在云端 Ubuntu 系统运行
+
+    # 具体步骤
+    steps:
+      - name: 输出 Hello
+        run: echo "Hello GitHub Action!"
+
+      - name: 输出当前时间
+        run: date
