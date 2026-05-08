@@ -1,4 +1,4 @@
-name: 全网AI热门仓库（Star≥5万）
+name: 全网 Star ≥ 5万 热门仓库
 
 on:
   schedule:
@@ -14,38 +14,33 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: 搜索全网 AI 仓库 Star ≥ 5万
+      - name: 搜索全球 Star ≥ 50000 仓库
         env:
-          GH_TOKEN: ${{ secrets.STAR_TRACKER_TOKEN }}
+          GH_TOKEN: ${{ secrets.STAR_TRACK_TOKEN }}
         run: |
-          echo "# 🔥 GitHub 全球 AI 热门仓库（Star ≥ 50000）" > AI_TOP50K.md
-          echo "更新时间：$(date '+%Y-%m-%d %H:%M:%S')" >> AI_TOP50K.md
-          echo "" >> AI_TOP50K.md
-          echo "| 排名 | 仓库 | Star 数 | 简介 |" >> AI_TOP50K.md
-          echo "|-----|------|---------|------|" >> AI_TOP50K.md
+          echo "# 🔥 GitHub 全球热门仓库（Star ≥ 5万）" > TOP_STARS_50K.md
+          echo "更新时间：$(date '+%Y-%m-%d %H:%M:%S')" >> TOP_STARS_50K.md
+          echo "" >> TOP_STARS_50K.md
+          echo "| 排名 | 仓库 | Star 数 | 简介 |" >> TOP_STARS_50K.md
+          echo "|-----|------|---------|------|" >> TOP_STARS_50K.md
 
           gh api search/repositories \
-            -q "q=(ai OR llm OR large-language-model OR generative-ai) stars:>=50000" \
-            -X GET \
+            -q "q=stars:>=50000" \
             --per-page 100 \
           | jq -r '
             .items[] |
-            [
-              .stargazers_count,
-              .full_name,
-              .description
-            ] | @tsv
-          ' | sort -nr | head -20 | awk -v rank=1 '
+            [.stargazers_count, .full_name, .description] | @tsv
+          ' | sort -nr | head -30 | awk -v rank=1 '
             {
               printf "| %d | [%s](https://github.com/%s) | %s | %s |\n",
               rank++, $2, $2, $1, substr($0, index($0,$3))
             }
-          ' >> AI_TOP50K.md
+          ' >> TOP_STARS_50K.md
 
-      - name: 提交更新（无变化不报错）
+      - name: 提交更新
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add AI_TOP50K.md
-          git commit -m "更新 AI 仓库 TOP50K" || echo "✅ 无变化"
-          git push || echo "✅ 跳过推送"
+          git config user.name "bot"
+          git config user.email "bot@github.com"
+          git add TOP_STARS_50K.md
+          git commit -m "更新 5万+ 热门仓库" || echo "✅ 无变化"
+          git push || echo "✅ 跳过"
