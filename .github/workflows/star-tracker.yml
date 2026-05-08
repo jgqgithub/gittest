@@ -14,25 +14,41 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.STAR_TRACKER_TOKEN }}
         run: |
-          # 输出文件
-          echo "# 🔥 GitHub 5万星以上仓库（自动排行）" > TOP_50K.md
-          echo "| 排名 | 仓库 | Star | 描述 |" >> TOP_50K.md
-          echo "|-----|------|------|------|" >> TOP_50K.md
+          set -e  # 遇到错误立即退出
 
-          # 正确的 GitHub API 调用
-          gh api "/search/repositories?q=stars:>=50000&sort=stars&order=desc&per_page=100" | \
-          jq -r '
-            .items[] | [
-              .stargazers_count,
-              .full_name,
-              .description
-            ] | @tsv
-          ' | while IFS=$'\t' read -r star name desc; do
-            echo "| $rank | $name | $star | $desc |" >> TOP_50K.md
+          output_file="TOP_50K.md"
+          echo "# 🔥 GitHub 5万星以上仓库（自动排行）" > "$output_file"
+          echo "| 排名 | 仓库 | Star | 描述 |" >> "$output_file"
+          echo "|-----|------|------|------|" >> "$output_file"
+
+          # 调用 API 并保存响应体（便于调试）
+          response=$(gh api "/search/repositories?q=stars:>=50000&sort=stars&order=desc&per_page=100" --jq '.' 2>&1)
+          if [ $? -ne 0 ]; then
+            echo "API 调用失败，响应内容："
+            echo "$response"
+            exit 1
+          fi
+
+          # 获取仓库总数（可选，用于日志）
+          total_count=$(echo "$response" | jq -r '.total_count')
+          echo "找到 ${total_count} 个仓库（仅展示前100）"
+
+          # 处理数据，生成表格行
+          rank=1
+          echo "$response" | jq -r '.items[] | [.stargazers_count, .full_name, .description // ""] | @tsv' | \
+          while IFS=$'\t' read -r star full_name desc; do
+            # 清洗描述：移除换行符、回车符、多余的竖线，避免破坏 markdown 表格
+            clean_desc=$(echo "$desc" | tr '\n\r' ' ' | sed 's/|/\\|/g')
+            echo "| $rank | $full_name | $star | $clean_desc |" >> "$output_file"
+            rank=$((rank + 1))
           done
+
+          echo "生成完成，共写入 $((rank-1)) 条记录"
 
       - name: 提交
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add TOP_50K.md
-          git commit -m "update" || true
-          git push || true
+          git commit -m "Update 50k+ stars repo list" || echo "无变化，跳过提交"
+          git push
