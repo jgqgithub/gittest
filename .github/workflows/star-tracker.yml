@@ -1,10 +1,6 @@
-name: 全网 Star ≥ 5万 热门仓库
-
+name: GitHub 5万星热门仓库
 on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
+  workflow_dispatch
 permissions:
   contents: write
 
@@ -14,33 +10,29 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: 搜索全球 Star ≥ 50000 仓库
+      - name: 拉取 5万星以上仓库
         env:
-          GH_TOKEN: ${{ secrets.STAR_TRACK_TOKEN }}
+          GH_TOKEN: ${{ secrets.STAR_TRACKER_TOKEN }}
         run: |
-          echo "# 🔥 GitHub 全球热门仓库（Star ≥ 5万）" > TOP_STARS_50K.md
-          echo "更新时间：$(date '+%Y-%m-%d %H:%M:%S')" >> TOP_STARS_50K.md
-          echo "" >> TOP_STARS_50K.md
-          echo "| 排名 | 仓库 | Star 数 | 简介 |" >> TOP_STARS_50K.md
-          echo "|-----|------|---------|------|" >> TOP_STARS_50K.md
+          # 输出文件
+          echo "# 🔥 GitHub 5万星以上仓库（自动排行）" > TOP_50K.md
+          echo "| 排名 | 仓库 | Star | 描述 |" >> TOP_50K.md
+          echo "|-----|------|------|------|" >> TOP_50K.md
 
-          gh api search/repositories \
-            -q "q=stars:>=50000" \
-            --per-page 100 \
-          | jq -r '
-            .items[] |
-            [.stargazers_count, .full_name, .description] | @tsv
-          ' | sort -nr | head -30 | awk -v rank=1 '
-            {
-              printf "| %d | [%s](https://github.com/%s) | %s | %s |\n",
-              rank++, $2, $2, $1, substr($0, index($0,$3))
-            }
-          ' >> TOP_STARS_50K.md
+          # 正确的 GitHub API 调用
+          gh api "/search/repositories?q=stars:>=50000&sort=stars&order=desc&per_page=100" | \
+          jq -r '
+            .items[] | [
+              .stargazers_count,
+              .full_name,
+              .description
+            ] | @tsv
+          ' | while IFS=$'\t' read -r star name desc; do
+            echo "| $rank | $name | $star | $desc |" >> TOP_50K.md
+          done
 
-      - name: 提交更新
+      - name: 提交
         run: |
-          git config user.name "bot"
-          git config user.email "bot@github.com"
-          git add TOP_STARS_50K.md
-          git commit -m "更新 5万+ 热门仓库" || echo "✅ 无变化"
-          git push || echo "✅ 跳过"
+          git add TOP_50K.md
+          git commit -m "update" || true
+          git push || true
