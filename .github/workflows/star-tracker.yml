@@ -2,18 +2,19 @@ name: 自动统计 GitHub Star
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 8 点执行
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  track-stars:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Star 统计工具
-        uses: fbuireu/github-star-tracker@v1
+      - uses: actions/checkout@v4
+
+      - name: 统计 Star 数据
+        uses: lowlighter/metrics@latest
         with:
-          github-token: ${{secrets.STAR_TRACKER_TOKEN}}
-          locale: zh-CN
+          filename: stars.svg
+          token: ${{ secrets.STAR_TRACKER_TOKEN }}
+          template: repository
+          repo_stars: yes
