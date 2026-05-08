@@ -31,7 +31,7 @@ jobs:
           gh api "/users/$USER/repos?per_page=100" --paginate | \
           jq -r '
             .[] |
-            select(.stargazers_count >= 50000) |
+            select(.stargazers_count >= 10000) |
             "| \(.full_name) | \(.stargazers_count) |"
           ' >> TOP_STARS.md
 
