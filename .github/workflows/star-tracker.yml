@@ -2,7 +2,7 @@ name: 只统计 Star ≥ 1万 的仓库
 
 on:
   schedule:
-    - cron: "0 0 * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
