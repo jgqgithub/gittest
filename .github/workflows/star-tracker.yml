@@ -1,7 +1,7 @@
 name: GitHub 5万星热门仓库
 
 on:
-  workflow_dispatch          # 允许手动触发
+  workflow_dispatch:         # 允许手动触发
   schedule:
     - cron: '0 0 * * *'      # 每天 UTC 0:00（北京时间 8:00）自动运行
 
