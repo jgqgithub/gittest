@@ -14,25 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: 拉取 5万星以上仓库（前200）
+      - name: 拉取 5万星以上仓库（前200）并生成趋势图
         env:
           GH_TOKEN: ${{ secrets.STAR_TRACKER_TOKEN }}
         run: |
           set -e
           output_file="TOP_50K.md"
 
-          echo "# 🔥 GitHub 5万星以上仓库（自动排行）" > "$output_file"
-          echo "| 排名 | 仓库 | Star | 描述 |" >> "$output_file"
-          echo "|-----|------|------|------|" >> "$output_file"
-
           # 获取第1页和第2页，合并数据
           page1=$(gh api "/search/repositories?q=stars:>=50000&sort=stars&order=desc&per_page=100&page=1")
           page2=$(gh api "/search/repositories?q=stars:>=50000&sort=stars&order=desc&per_page=100&page=2")
 
-          # 合并两个页面的 items 数组，然后按 star 数降序排序，取前200
+          # 合并两个页面的 items 数组，按 star 数降序排序，取前200
           all_items=$(echo "$page1" "$page2" | jq -s 'map(.items[]) | sort_by(-.stargazers_count) | .[:200]')
 
-          # 检查是否获取到数据
           count=$(echo "$all_items" | jq length)
           if [ "$count" -eq 0 ]; then
             echo "错误：未获取到任何仓库数据"
@@ -40,11 +35,29 @@ jobs:
           fi
           echo "成功获取 $count 条仓库数据（前200）"
 
+          # 提取前10个仓库的名称（用于趋势图）
+          top10_names=$(echo "$all_items" | jq -r '.[:10] | map(.full_name) | join(",")')
+
+          # 开始写入 Markdown 文件
+          echo "# 🔥 GitHub 5万星以上仓库（自动排行）" > "$output_file"
+          echo "" >> "$output_file"
+
+          # 添加 Star 增长趋势图（Top 10）
+          echo "## 📈 Star 增长趋势（Top 10）" >> "$output_file"
+          echo "" >> "$output_file"
+          echo "![Star History Chart](https://api.star-history.com/svg?repos=$top10_names&type=Date&theme=dark)" >> "$output_file"
+          echo "" >> "$output_file"
+          echo "> 图表由 [Star History](https://star-history.com) 提供，展示了前10名仓库的 Star 增长轨迹。" >> "$output_file"
+          echo "" >> "$output_file"
+
+          echo "## 📊 详细榜单（前200）" >> "$output_file"
+          echo "| 排名 | 仓库 | Star | 描述 |" >> "$output_file"
+          echo "|-----|------|------|------|" >> "$output_file"
+
           # 生成表格行
           rank=1
           echo "$all_items" | jq -r '.[] | [.stargazers_count, .full_name, (.description // "")] | @tsv' | \
           while IFS=$'\t' read -r star full_name desc; do
-            # 清理描述：移除换行符和可能破坏表格的竖线
             clean_desc=$(echo "$desc" | tr '\n\r' ' ' | sed 's/|/\\|/g')
             echo "| $rank | $full_name | $star | $clean_desc |" >> "$output_file"
             rank=$((rank + 1))
@@ -57,5 +70,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add TOP_50K.md
-          git commit -m "自动更新 5万星仓库榜单 (前200)" || echo "无变化，跳过提交"
+          git commit -m "自动更新 5万星仓库榜单 (前200) + 趋势图" || echo "无变化，跳过提交"
           git push
