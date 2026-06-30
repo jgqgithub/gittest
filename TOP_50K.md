@@ -9,203 +9,203 @@
 ## 📊 详细榜单（前200）
 | 排名 | 仓库 | Star | 描述 |
 |-----|------|------|------|
-| 1 | codecrafters-io/build-your-own-x | 520625 | Master programming by recreating your favorite technologies from scratch.  |
-| 2 | sindresorhus/awesome | 479681 | 😎 Awesome lists about all kinds of interesting topics  |
-| 3 | freeCodeCamp/freeCodeCamp | 450699 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.  |
-| 4 | public-apis/public-apis | 444809 | A collective list of free APIs  |
-| 5 | EbookFoundation/free-programming-books | 390926 | :books: Freely available programming books  |
-| 6 | openclaw/openclaw | 380891 | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞   |
-| 7 | nilbuild/developer-roadmap | 358554 | Interactive roadmaps, guides and other educational content to help developers grow in their careers.  |
-| 8 | donnemartin/system-design-primer | 355315 | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.  |
-| 9 | jwasham/coding-interview-university | 354446 | A complete computer science study plan to become a software engineer.  |
-| 10 | vinta/awesome-python | 305324 | An opinionated list of Python frameworks, libraries, tools, and resources  |
-| 11 | awesome-selfhosted/awesome-selfhosted | 301690 | A list of Free Software network services and web applications which can be hosted on your own servers  |
+| 1 | codecrafters-io/build-your-own-x | 520905 | Master programming by recreating your favorite technologies from scratch.  |
+| 2 | sindresorhus/awesome | 479950 | 😎 Awesome lists about all kinds of interesting topics  |
+| 3 | freeCodeCamp/freeCodeCamp | 450749 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.  |
+| 4 | public-apis/public-apis | 445044 | A collective list of free APIs  |
+| 5 | EbookFoundation/free-programming-books | 390994 | :books: Freely available programming books  |
+| 6 | openclaw/openclaw | 381038 | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞   |
+| 7 | nilbuild/developer-roadmap | 358652 | Interactive roadmaps, guides and other educational content to help developers grow in their careers.  |
+| 8 | donnemartin/system-design-primer | 355461 | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.  |
+| 9 | jwasham/coding-interview-university | 354584 | A complete computer science study plan to become a software engineer.  |
+| 10 | vinta/awesome-python | 305537 | An opinionated list of Python frameworks, libraries, tools, and resources  |
+| 11 | awesome-selfhosted/awesome-selfhosted | 301925 | A list of Free Software network services and web applications which can be hosted on your own servers  |
 | 12 | 996icu/996.ICU | 276337 | Repo for counting stars and contributing. Press F to pay respect to glorious developers.  |
-| 13 | practical-tutorials/project-based-learning | 271245 | Curated list of project-based tutorials  |
-| 14 | react/react | 246285 | The library for web and native user interfaces.  |
-| 15 | obra/superpowers | 240788 | An agentic skills framework & software development methodology that works.  |
-| 16 | torvalds/linux | 237925 | Linux kernel source tree  |
-| 17 | trimstray/the-book-of-secret-knowledge | 230729 | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.  |
-| 18 | affaan-m/ECC | 223117 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.  |
-| 19 | TheAlgorithms/Python | 222281 | All Algorithms implemented in Python  |
-| 20 | vuejs/vue | 210084 | This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core  |
-| 21 | ossu/computer-science | 205413 | 🎓 Path to a free self-taught education in Computer Science!  |
-| 22 | NousResearch/hermes-agent | 205081 | The agent that grows with you  |
-| 23 | trekhleb/javascript-algorithms | 196145 | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings  |
-| 24 | tensorflow/tensorflow | 196088 | An Open Source Machine Learning Framework for Everyone  |
-| 25 | ultraworkers/claw-code | 194412 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.  |
-| 26 | n8n-io/n8n | 194411 | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.  |
-| 27 | ohmyzsh/ohmyzsh | 188441 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.  |
-| 28 | microsoft/vscode | 187005 | Visual Studio Code  |
-| 29 | Significant-Gravitas/AutoGPT | 185203 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.  |
-| 30 | CyC2018/CS-Notes | 184638 | :books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计  |
-| 31 | getify/You-Dont-Know-JS | 184548 | A book series (2 published editions) on the JS language.  |
-| 32 | multica-ai/andrej-karpathy-skills | 184092 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  |
-| 33 | jackfrued/Python-100-Days | 183784 | Python - 100天从新手到大师  |
-| 34 | DigitalPlatDev/FreeDomain | 181290 | DigitalPlat FreeDomain: Free Domain For Everyone  |
-| 35 | massgravel/Microsoft-Activation-Scripts | 181177 | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.  |
-| 36 | anomalyco/opencode | 180277 | The open source coding agent.  |
-| 37 | flutter/flutter | 177621 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond  |
-| 38 | avelino/awesome-go | 176668 | A curated list of awesome Go frameworks, libraries and software  |
-| 39 | ollama/ollama | 175089 | Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.  |
-| 40 | github/gitignore | 174637 | A collection of useful .gitignore templates  |
-| 41 | twbs/bootstrap | 174411 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.  |
-| 42 | yt-dlp/yt-dlp | 174035 | A feature-rich command-line audio/video downloader  |
-| 43 | f/prompts.chat | 164487 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.  |
-| 44 | AUTOMATIC1111/stable-diffusion-webui | 163923 | Stable Diffusion web UI  |
-| 45 | 521xueweihan/HelloGitHub | 163098 | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.  |
-| 46 | huggingface/transformers | 162001 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.   |
-| 47 | jlevy/the-art-of-command-line | 161451 | Master the command line, in one page  |
-| 48 | microsoft/markitdown | 160730 | Python tool for converting files and office documents to Markdown.  |
-| 49 | Snailclimb/JavaGuide | 156665 | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发  |
-| 50 | anthropics/skills | 156325 | Public repository for Agent Skills  |
-| 51 | langflow-ai/langflow | 150170 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.  |
-| 52 | mattpocock/skills | 149545 | Skills for Real Engineers. Straight from my .claude directory.  |
-| 53 | airbnb/javascript | 148088 | JavaScript Style Guide  |
-| 54 | langgenius/dify | 146893 | Production-ready platform for agentic workflow development.  |
-| 55 | Genymobile/scrcpy | 144589 | Display and control your Android device  |
-| 56 | open-webui/open-webui | 143365 | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)  |
-| 57 | x1xhlol/system-prompts-and-models-of-ai-tools | 141285 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models  |
-| 58 | firecrawl/firecrawl | 140882 | The API to search, scrape, and interact with the web at scale. 🔥  |
-| 59 | ytdl-org/youtube-dl | 140612 | Command-line program to download videos from YouTube.com and other video sites  |
-| 60 | yangshun/tech-interview-handbook | 140498 | Curated coding interview preparation materials for busy software engineers  |
-| 61 | langchain-ai/langchain | 140429 | The agent engineering platform.  |
-| 62 | vercel/next.js | 140409 | The React Framework  |
-| 63 | microsoft/PowerToys | 135838 | Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows  |
-| 64 | golang/go | 135089 | The Go programming language  |
-| 65 | anthropics/claude-code | 134853 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.  |
-| 66 | labuladong/fucking-algorithm | 134591 | Crack LeetCode, not only how, but also why.   |
-| 67 | iptv-org/iptv | 129101 | Collection of publicly available IPTV channels from all over the world  |
-| 68 | clash-verge-rev/clash-verge-rev | 128472 | A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience  |
-| 69 | Chalarangelo/30-seconds-of-code | 128232 | Coding articles to level up your development skills  |
-| 70 | krahets/hello-algo | 127993 | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现  |
-| 71 | excalidraw/excalidraw | 126385 | Virtual whiteboard for sketching hand-drawn like diagrams  |
-| 72 | react/react-native | 126117 | A framework for building native applications using React  |
-| 73 | ripienaar/free-for-dev | 125516 | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev  |
-| 74 | kubernetes/kubernetes | 123471 | Production-Grade Container Scheduling and Management  |
-| 75 | electron/electron | 121815 | :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS  |
-| 76 | Comfy-Org/ComfyUI | 118680 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.  |
-| 77 | ggml-org/llama.cpp | 118514 | LLM inference in C/C++  |
-| 78 | nodejs/node | 118131 | Node.js JavaScript runtime ✨🐢🚀✨  |
-| 79 | garrytan/gstack | 117797 | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA  |
-| 80 | msitarzewski/agency-agents | 117773 | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.  |
-| 81 | shadcn-ui/ui | 117676 | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.  |
-| 82 | rustdesk/rustdesk | 117235 | An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.  |
-| 83 | justjavac/free-programming-books-zh_CN | 117204 | :books: 免费的计算机编程类中文书籍，欢迎投稿  |
-| 84 | github/spec-kit | 116197 | 💫 Toolkit to help you get started with Spec-Driven Development  |
-| 85 | Shubhamsaboo/awesome-llm-apps | 115972 | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.  |
-| 86 | Hack-with-Github/Awesome-Hacking | 115244 | A collection of various awesome lists for hackers, pentesters and security researchers  |
-| 87 | rust-lang/rust | 114396 | Empowering everyone to build reliable and efficient software.  |
-| 88 | mrdoob/three.js | 113381 | JavaScript 3D Library.  |
-| 89 | godotengine/godot | 113271 | Godot Engine – Multi-platform 2D and 3D game engine  |
-| 90 | d3/d3 | 113139 | Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:  |
-| 91 | microsoft/generative-ai-for-beginners | 112367 | 21 Lessons, Get Started Building with Generative AI   |
-| 92 | 2dust/v2rayN | 110125 | A GUI client for Windows, Linux and macOS, support Xray and sing-box and others  |
-| 93 | farion1231/cc-switch | 110092 | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io  |
-| 94 | microsoft/TypeScript | 109425 | TypeScript is a superset of JavaScript that compiles to clean JavaScript output.  |
-| 95 | axios/axios | 109220 | Promise based HTTP client for the browser and node.js  |
-| 96 | GrowingGit/GitHub-Chinese-Top-Charts | 108619 | :cn: GitHub中文排行榜，各语言分设「软件 \| 资料」榜单，精准定位中文好项目。各取所需，高效学习。  |
-| 97 | tauri-apps/tauri | 108450 | Build smaller, faster, and more secure desktop and mobile applications with a web frontend.  |
-| 98 | fatedier/frp | 107635 | A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.  |
-| 99 | papers-we-love/papers-we-love | 107402 | Papers from the computer science community to read and discuss.  |
-| 100 | denoland/deno | 107373 | A modern runtime for JavaScript and TypeScript.  |
-| 101 | jaywcjlove/awesome-mac | 106409 |  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.  |
-| 102 | google-gemini/gemini-cli | 105635 | An open-source AI agent that brings the power of Gemini directly into your terminal.  |
-| 103 | goldbergyoni/nodebestpractices | 105378 | ✅ The Node.js best practices list (July 2026)  |
-| 104 | supabase/supabase | 104972 | The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.  |
-| 105 | immich-app/immich | 104621 | High performance self-hosted photo and video management solution.  |
-| 106 | deepseek-ai/DeepSeek-V3 | 103833 |   |
-| 107 | openai/whisper | 103803 | Robust Speech Recognition via Large-Scale Weak Supervision  |
-| 108 | microsoft/terminal | 103739 | The new Windows Terminal and the original Windows console host, all in the same place!  |
-| 109 | react/create-react-app | 103313 | Set up a modern web app by running one command.  |
-| 110 | browser-use/browser-use | 101211 | 🌐 Make websites accessible for AI agents. Automate tasks online with ease.  |
-| 111 | pytorch/pytorch | 101186 | Tensors and Dynamic neural networks in Python with strong GPU acceleration  |
-| 112 | Anduin2017/HowToCook | 100959 | Programmer's guide about how to cook at home.  |
-| 113 | neovim/neovim | 100905 | Vim-fork focused on extensibility and usability  |
-| 114 | angular/angular | 100474 | Deliver web apps with confidence 🚀  |
-| 115 | mtdvio/every-programmer-should-know | 99975 | A collection of (mostly) technical things every software developer should know about  |
-| 116 | fastapi/fastapi | 99756 | FastAPI framework, high performance, easy to learn, fast to code, ready for production  |
-| 117 | ant-design/ant-design | 98496 | An enterprise-class UI design language and React UI library  |
-| 118 | mui/material-ui | 98489 | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.  |
-| 119 | rasbt/LLMs-from-scratch | 98096 | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step  |
-| 120 | nextlevelbuilder/ui-ux-pro-max-skill | 97537 | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms  |
-| 121 | nvbn/thefuck | 97450 | Magnificent app which corrects your previous console command.  |
-| 122 | microsoft/Web-Dev-For-Beginners | 95927 | 24 Lessons, 12 Weeks, Get Started as a Web Developer  |
-| 123 | tailwindlabs/tailwindcss | 95775 | A utility-first CSS framework for rapid UI development.  |
-| 124 | florinpop17/app-ideas | 95353 | A Collection of application ideas which can be used to improve your coding skills.  |
-| 125 | puppeteer/puppeteer | 95266 | JavaScript API for Chrome and Firefox  |
-| 126 | ruanyf/weekly | 94686 | 科技爱好者周刊，每周五发布  |
-| 127 | ryanmcdermott/clean-code-javascript | 94454 | Clean Code concepts adapted for JavaScript  |
-| 128 | hacksider/Deep-Live-Cam | 94402 | real time face swap and one-click video deepfake with only a single image  |
-| 129 | openai/codex | 94251 | Lightweight coding agent that runs in your terminal  |
-| 130 | iluwatar/java-design-patterns | 94163 | Design patterns implemented in Java  |
-| 131 | VoltAgent/awesome-design-md | 94104 | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.  |
-| 132 | nvm-sh/nvm | 93973 | Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions  |
-| 133 | harry0703/MoneyPrinterTurbo | 93959 | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.  |
-| 134 | oven-sh/bun | 93504 | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one  |
-| 135 | deepseek-ai/DeepSeek-R1 | 91982 |   |
-| 136 | microsoft/playwright | 91830 | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.   |
-| 137 | storybookjs/storybook | 90463 | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation  |
-| 138 | PanJiaChen/vue-element-admin | 90252 | :tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin  |
-| 139 | punkpeye/awesome-mcp-servers | 89932 | A collection of MCP servers.  |
-| 140 | bitcoin/bitcoin | 89579 | Bitcoin Core integration/staging tree  |
-| 141 | TauricResearch/TradingAgents | 89509 | TradingAgents: Multi-Agents LLM Financial Trading Framework  |
-| 142 | opencv/opencv | 89437 | Open Source Computer Vision Library  |
-| 143 | karpathy/autoresearch | 89002 | AI agents running research on single-GPU nanochat training automatically  |
-| 144 | mermaid-js/mermaid | 88910 | Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown  |
-| 145 | gin-gonic/gin | 88774 | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.  |
-| 146 | gohugoio/hugo | 88766 | The world’s fastest framework for building websites.  |
-| 147 | louislam/uptime-kuma | 88549 | A fancy self-hosted monitoring tool  |
-| 148 | ChatGPTNextWeb/NextChat | 88330 | ✨ Light and Fast AI Assistant. Support: Web \| iOS \| MacOS \| Android \|  Linux \| Windows  |
-| 149 | django/django | 88131 | The Web framework for perfectionists with deadlines.  |
-| 150 | home-assistant/core | 88039 | :house_with_garden: Open source home automation that puts local control and privacy first.  |
-| 151 | 3b1b/manim | 87941 | Animation engine for explanatory math videos  |
-| 152 | modelcontextprotocol/servers | 87807 | Model Context Protocol Servers  |
-| 153 | sveltejs/svelte | 87568 | web development for the rest of us  |
-| 154 | microsoft/ML-For-Beginners | 87481 | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all  |
-| 155 | MunGell/awesome-for-beginners | 86971 | A list of awesome beginners-friendly projects.  |
-| 156 | astral-sh/uv | 86867 | An extremely fast Python package and project manager, written in Rust.  |
-| 157 | zed-industries/zed | 86145 | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.  |
-| 158 | syncthing/syncthing | 85885 | Open Source Continuous File Synchronization  |
-| 159 | sherlock-project/sherlock | 85817 | Hunt down social media accounts by username across social networks  |
-| 160 | Stirling-Tools/Stirling-PDF | 84989 | #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere  |
-| 161 | thedotmack/claude-mem | 84923 | Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More  |
-| 162 | vllm-project/vllm | 84713 | A high-throughput and memory-efficient inference and serving engine for LLMs  |
-| 163 | ByteByteGoHq/system-design-101 | 84602 | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.  |
-| 164 | laravel/laravel | 84576 | Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.  |
-| 165 | localsend/localsend | 84322 | An open-source cross-platform alternative to AirDrop  |
-| 166 | PaddlePaddle/PaddleOCR | 84158 | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.  |
-| 167 | macrozheng/mall | 83937 | mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。  |
-| 168 | infiniflow/ragflow | 83802 | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs  |
-| 169 | realworld-apps/realworld | 83669 | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more  |
-| 170 | DopplerHQ/awesome-interview-questions | 83326 | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:   |
-| 171 | bregman-arie/devops-exercises | 82964 | Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions  |
-| 172 | animate-css/animate.css | 82628 | 🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.  |
-| 173 | Developer-Y/cs-video-courses | 82027 | List of Computer Science courses with video lectures.  |
-| 174 | tonsky/FiraCode | 81799 | Free monospaced font with programming ligatures  |
-| 175 | vitejs/vite | 81685 | Next generation frontend tooling. It's fast!  |
-| 176 | fighting41love/funNLP | 81499 | 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 PDF 或者 PPT、自然语言生成SQL语句（英文）、中文NLP数据增强（EDA）工具、英文NLP数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ULMFiT-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqGAN、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、Python音频数据增广库、中文全词覆盖BERT及两份阅读理解数据、ConvLab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于TensorFlow和BERT的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有NLP比赛的TOP方案、OpenCLaP：多领域开源中文预训练语言模型仓库、UER：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pC：基于上下文的汉语读音自动标记模块、Zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于BERT等最新语言模型的抽取式摘要提取、Python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、StanfordNLP 0.2.0：纯Python版自然语言处理包、NeuralNLP-NeuralClassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：NeuroNER vs. BertNER、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的GPT2训练代码、ML-NLP - 机器学习(Machine Learning)NLP面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/NER/N元语法/HMM/代词消解/情感分析/拼写检查、XLM：Facebook的跨语言预训练语言模型、用基于BERT的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、CoupletAI - 基于CNN+Bi-LSTM+Attention 的自动对对联系统、抽象知识图谱、MiningZhiDaoQACorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、PDF表格数据提取工具 、 Graphbrain：AI开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 OCR 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、Python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练ALBERT模型 、Transformers 2.0 、基于大规模音频数据集Audioset的音频增强 、Poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、Amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 Python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、CHAMELEON：深度学习新闻推荐系统元架构 、 8篇论文梳理BERT相关模型进展与反思、DocSearch：免费文档搜索引擎、 LIDA：轻量交互式对话标注工具 、aili - the fastest in-memory index in the East 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的Python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、PySS3：面向可解释AI的SS3文本分类器机器可视化工具 、中文NLP数据集列表、COPE - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、PreNLP：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的GPT2模型：GPT2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(Leaderboards、Datasets、Papers)、(Colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、NLP数据增广资源集、微软对话机器人框架 、 GitHub Typo Corpus：大规模GitHub多语言拼写错误/语法错误数据集、TextCluster：短文本聚类预处理模块 Short text cluster、面向语音识别的中文文本规范化、BLINK：最先进的实体链接库、BertPunc：基于BERT的最先进标点修复模型、Tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spaCy 医学文本挖掘与信息提取 、 NLP任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(MOSNet, BSSEval, STOI, PESQ, SRMR)、 用138GB语料训练的法文RoBERTa预训练语言模型 、BERT-NER-Pytorch：三种不同模式的BERT中文NER实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年NLP亮点回顾、 Chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、LineFlow：面向所有深度学习框架的NLP数据高效加载器、中文医学NLP公开资源整理 、MedQuAD：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、Transfer Learning in Natural Language Processing (NLP) 、面向语音识别的中文/英文发音辞典、Tokenizers：注重性能与多功能性的最先进分词器、CLUENER 细粒度命名实体识别 Fine Grained Named Entity Recognition、 基于BERT的中文命名实体识别、中文谣言数据库、NLP数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(Word Embedding)、命名实体识别(NER)、文本分类(Text Classificatin)、文本生成(Text Generation)、文本相似性(Text Similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、Python文本挖掘/NLP实战示例、 Blackstone：面向非结构化法律文本的spaCy pipeline和NLP模型通过同义词替换实现文本“变脸” 、中文 预训练 ELECTREA 模型: 基于对抗学习 pretrain Chinese Model 、albert-chinese-ner - 用预训练语言模型ALBERT做中文NER 、基于GPT2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：GPT2、BERT等transformer语言模型注意力交互可视化、CoVoST：Facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、Jiagu自然语言处理工具 - 以BiLSTM等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、NLP事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、CLUEDatasetSearch - 中英文NLP数据集：搜索所有中文NLP数据集，附常用英文NLP数据集 、medical_NER - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、Forte：灵活强大的自然语言处理pipeline工具集 、Python字符串相似性算法库、PyLaia：面向手写文档分析的深度学习工具包、TextFooler：针对文本分类/推理的对抗文本生成模块、Haystack：灵活、强大的可扩展问答(QA)框架、中文关键短语抽取工具  |
-| 177 | junegunn/fzf | 81294 | :cherry_blossom: A command-line fuzzy finder  |
-| 178 | spring-projects/spring-boot | 81043 | Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.  |
-| 179 | mlabonne/llm-course | 80467 | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.  |
-| 180 | anuraghazra/github-readme-stats | 79779 | :zap: Dynamically generated stats for your github readmes  |
-| 181 | jesseduffield/lazygit | 79774 | simple terminal UI for git commands  |
-| 182 | hoppscotch/hoppscotch | 79663 | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia  |
-| 183 | netdata/netdata | 79436 | The fastest path to AI-powered full stack observability, even for lean teams.  |
-| 184 | lobehub/lobehub | 79198 | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.  |
-| 185 | pewdiepie-archdaemon/odysseus | 79039 | Self-hosted AI workspace.   |
-| 186 | doocs/advanced-java | 78985 | 😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers \| 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识  |
-| 187 | swisskyrepo/PayloadsAllTheThings | 78753 | A list of useful payloads and bypass for Web Application Security and Pentest/CTF  |
-| 188 | OpenHands/OpenHands | 78610 | 🙌 OpenHands: AI-Driven Development  |
-| 189 | d2l-ai/d2l-zh | 78560 | 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。  |
-| 190 | coder/code-server | 78103 | VS Code in the browser  |
-| 191 | Z4nzu/hackingtool | 77878 | ALL IN ONE Hacking Tool For Hackers  |
-| 192 | JuliusBrussee/caveman | 77690 | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman  |
-| 193 | tensorflow/models | 77673 | Models and examples built with TensorFlow  |
-| 194 | ventoy/Ventoy | 77563 | A new bootable USB solution.  |
-| 195 | nomic-ai/gpt4all | 77379 | GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.  |
-| 196 | elastic/elasticsearch | 77184 | Free and Open Source, Distributed, RESTful Search Engine  |
-| 197 | FortAwesome/Font-Awesome | 76700 | The iconic SVG, font, and CSS toolkit  |
-| 198 | MisterBooo/LeetCodeAnimation | 76601 | Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）  |
-| 199 | sdmg15/Best-websites-a-programmer-should-visit | 76207 | :link: Some useful websites for programmers.  |
-| 200 | awesomedata/awesome-public-datasets | 76125 | A topic-centric list of HQ open datasets.  |
+| 13 | practical-tutorials/project-based-learning | 271378 | Curated list of project-based tutorials  |
+| 14 | react/react | 246311 | The library for web and native user interfaces.  |
+| 15 | obra/superpowers | 241636 | An agentic skills framework & software development methodology that works.  |
+| 16 | torvalds/linux | 238022 | Linux kernel source tree  |
+| 17 | trimstray/the-book-of-secret-knowledge | 230872 | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.  |
+| 18 | affaan-m/ECC | 223545 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.  |
+| 19 | TheAlgorithms/Python | 222311 | All Algorithms implemented in Python  |
+| 20 | vuejs/vue | 210091 | This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core  |
+| 21 | NousResearch/hermes-agent | 205822 | The agent that grows with you  |
+| 22 | ossu/computer-science | 205452 | 🎓 Path to a free self-taught education in Computer Science!  |
+| 23 | trekhleb/javascript-algorithms | 196154 | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings  |
+| 24 | tensorflow/tensorflow | 196107 | An Open Source Machine Learning Framework for Everyone  |
+| 25 | n8n-io/n8n | 194578 | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.  |
+| 26 | ultraworkers/claw-code | 194457 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.  |
+| 27 | ohmyzsh/ohmyzsh | 188464 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.  |
+| 28 | microsoft/vscode | 187040 | Visual Studio Code  |
+| 29 | Significant-Gravitas/AutoGPT | 185218 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.  |
+| 30 | multica-ai/andrej-karpathy-skills | 184699 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  |
+| 31 | CyC2018/CS-Notes | 184652 | :books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计  |
+| 32 | getify/You-Dont-Know-JS | 184551 | A book series (2 published editions) on the JS language.  |
+| 33 | jackfrued/Python-100-Days | 183808 | Python - 100天从新手到大师  |
+| 34 | DigitalPlatDev/FreeDomain | 181481 | DigitalPlat FreeDomain: Free Domain For Everyone  |
+| 35 | massgravel/Microsoft-Activation-Scripts | 181295 | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.  |
+| 36 | anomalyco/opencode | 180614 | The open source coding agent.  |
+| 37 | flutter/flutter | 177642 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond  |
+| 38 | avelino/awesome-go | 176749 | A curated list of awesome Go frameworks, libraries and software  |
+| 39 | ollama/ollama | 175157 | Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.  |
+| 40 | github/gitignore | 174654 | A collection of useful .gitignore templates  |
+| 41 | twbs/bootstrap | 174413 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.  |
+| 42 | yt-dlp/yt-dlp | 174290 | A feature-rich command-line audio/video downloader  |
+| 43 | f/prompts.chat | 164529 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.  |
+| 44 | AUTOMATIC1111/stable-diffusion-webui | 163941 | Stable Diffusion web UI  |
+| 45 | 521xueweihan/HelloGitHub | 163257 | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.  |
+| 46 | huggingface/transformers | 162034 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.   |
+| 47 | jlevy/the-art-of-command-line | 161456 | Master the command line, in one page  |
+| 48 | microsoft/markitdown | 161331 | Python tool for converting files and office documents to Markdown.  |
+| 49 | anthropics/skills | 156700 | Public repository for Agent Skills  |
+| 50 | Snailclimb/JavaGuide | 156697 | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发  |
+| 51 | mattpocock/skills | 150708 | Skills for Real Engineers. Straight from my .claude directory.  |
+| 52 | langflow-ai/langflow | 150215 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.  |
+| 53 | airbnb/javascript | 148087 | JavaScript Style Guide  |
+| 54 | langgenius/dify | 147031 | Production-ready platform for agentic workflow development.  |
+| 55 | Genymobile/scrcpy | 144711 | Display and control your Android device  |
+| 56 | open-webui/open-webui | 143481 | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)  |
+| 57 | firecrawl/firecrawl | 141594 | The API to search, scrape, and interact with the web at scale. 🔥  |
+| 58 | x1xhlol/system-prompts-and-models-of-ai-tools | 141336 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models  |
+| 59 | ytdl-org/youtube-dl | 140615 | Command-line program to download videos from YouTube.com and other video sites  |
+| 60 | langchain-ai/langchain | 140524 | The agent engineering platform.  |
+| 61 | yangshun/tech-interview-handbook | 140517 | Curated coding interview preparation materials for busy software engineers  |
+| 62 | vercel/next.js | 140437 | The React Framework  |
+| 63 | microsoft/PowerToys | 135903 | Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows  |
+| 64 | golang/go | 135112 | The Go programming language  |
+| 65 | anthropics/claude-code | 135009 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.  |
+| 66 | labuladong/fucking-algorithm | 134609 | Crack LeetCode, not only how, but also why.   |
+| 67 | iptv-org/iptv | 129357 | Collection of publicly available IPTV channels from all over the world  |
+| 68 | clash-verge-rev/clash-verge-rev | 128663 | A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience  |
+| 69 | Chalarangelo/30-seconds-of-code | 128239 | Coding articles to level up your development skills  |
+| 70 | krahets/hello-algo | 128021 | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现  |
+| 71 | ripienaar/free-for-dev | 126820 | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev  |
+| 72 | excalidraw/excalidraw | 126448 | Virtual whiteboard for sketching hand-drawn like diagrams  |
+| 73 | react/react-native | 126123 | A framework for building native applications using React  |
+| 74 | kubernetes/kubernetes | 123507 | Production-Grade Container Scheduling and Management  |
+| 75 | electron/electron | 121835 | :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS  |
+| 76 | msitarzewski/agency-agents | 119149 | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.  |
+| 77 | Comfy-Org/ComfyUI | 118816 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.  |
+| 78 | ggml-org/llama.cpp | 118672 | LLM inference in C/C++  |
+| 79 | nodejs/node | 118153 | Node.js JavaScript runtime ✨🐢🚀✨  |
+| 80 | garrytan/gstack | 118146 | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA  |
+| 81 | shadcn-ui/ui | 117766 | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.  |
+| 82 | rustdesk/rustdesk | 117328 | An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.  |
+| 83 | justjavac/free-programming-books-zh_CN | 117210 | :books: 免费的计算机编程类中文书籍，欢迎投稿  |
+| 84 | github/spec-kit | 116455 | 💫 Toolkit to help you get started with Spec-Driven Development  |
+| 85 | Shubhamsaboo/awesome-llm-apps | 116078 | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.  |
+| 86 | Hack-with-Github/Awesome-Hacking | 115300 | A collection of various awesome lists for hackers, pentesters and security researchers  |
+| 87 | rust-lang/rust | 114423 | Empowering everyone to build reliable and efficient software.  |
+| 88 | mrdoob/three.js | 113402 | JavaScript 3D Library.  |
+| 89 | godotengine/godot | 113320 | Godot Engine – Multi-platform 2D and 3D game engine  |
+| 90 | d3/d3 | 113150 | Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:  |
+| 91 | microsoft/generative-ai-for-beginners | 112417 | 21 Lessons, Get Started Building with Generative AI   |
+| 92 | farion1231/cc-switch | 110772 | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io  |
+| 93 | 2dust/v2rayN | 110186 | A GUI client for Windows, Linux and macOS, support Xray and sing-box and others  |
+| 94 | microsoft/TypeScript | 109437 | TypeScript is a superset of JavaScript that compiles to clean JavaScript output.  |
+| 95 | axios/axios | 109224 | Promise based HTTP client for the browser and node.js  |
+| 96 | GrowingGit/GitHub-Chinese-Top-Charts | 108643 | :cn: GitHub中文排行榜，各语言分设「软件 \| 资料」榜单，精准定位中文好项目。各取所需，高效学习。  |
+| 97 | tauri-apps/tauri | 108491 | Build smaller, faster, and more secure desktop and mobile applications with a web frontend.  |
+| 98 | fatedier/frp | 107661 | A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.  |
+| 99 | papers-we-love/papers-we-love | 107434 | Papers from the computer science community to read and discuss.  |
+| 100 | denoland/deno | 107390 | A modern runtime for JavaScript and TypeScript.  |
+| 101 | jaywcjlove/awesome-mac | 106485 |  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.  |
+| 102 | google-gemini/gemini-cli | 105664 | An open-source AI agent that brings the power of Gemini directly into your terminal.  |
+| 103 | goldbergyoni/nodebestpractices | 105381 | ✅ The Node.js best practices list (July 2026)  |
+| 104 | supabase/supabase | 105035 | The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.  |
+| 105 | immich-app/immich | 104703 | High performance self-hosted photo and video management solution.  |
+| 106 | openai/whisper | 103887 | Robust Speech Recognition via Large-Scale Weak Supervision  |
+| 107 | deepseek-ai/DeepSeek-V3 | 103843 |   |
+| 108 | microsoft/terminal | 103752 | The new Windows Terminal and the original Windows console host, all in the same place!  |
+| 109 | react/create-react-app | 103314 | Set up a modern web app by running one command.  |
+| 110 | browser-use/browser-use | 101491 | 🌐 Make websites accessible for AI agents. Automate tasks online with ease.  |
+| 111 | pytorch/pytorch | 101219 | Tensors and Dynamic neural networks in Python with strong GPU acceleration  |
+| 112 | Anduin2017/HowToCook | 100972 | Programmer's guide about how to cook at home.  |
+| 113 | neovim/neovim | 100926 | Vim-fork focused on extensibility and usability  |
+| 114 | angular/angular | 100475 | Deliver web apps with confidence 🚀  |
+| 115 | mtdvio/every-programmer-should-know | 99979 | A collection of (mostly) technical things every software developer should know about  |
+| 116 | fastapi/fastapi | 99785 | FastAPI framework, high performance, easy to learn, fast to code, ready for production  |
+| 117 | ant-design/ant-design | 98515 | An enterprise-class UI design language and React UI library  |
+| 118 | mui/material-ui | 98496 | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.  |
+| 119 | rasbt/LLMs-from-scratch | 98160 | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step  |
+| 120 | nextlevelbuilder/ui-ux-pro-max-skill | 98118 | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms  |
+| 121 | nvbn/thefuck | 97449 | Magnificent app which corrects your previous console command.  |
+| 122 | microsoft/Web-Dev-For-Beginners | 95931 | 24 Lessons, 12 Weeks, Get Started as a Web Developer  |
+| 123 | tailwindlabs/tailwindcss | 95796 | A utility-first CSS framework for rapid UI development.  |
+| 124 | florinpop17/app-ideas | 95374 | A Collection of application ideas which can be used to improve your coding skills.  |
+| 125 | puppeteer/puppeteer | 95275 | JavaScript API for Chrome and Firefox  |
+| 126 | ruanyf/weekly | 94732 | 科技爱好者周刊，每周五发布  |
+| 127 | openai/codex | 94495 | Lightweight coding agent that runs in your terminal  |
+| 128 | ryanmcdermott/clean-code-javascript | 94453 | Clean Code concepts adapted for JavaScript  |
+| 129 | hacksider/Deep-Live-Cam | 94426 | real time face swap and one-click video deepfake with only a single image  |
+| 130 | VoltAgent/awesome-design-md | 94377 | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.  |
+| 131 | harry0703/MoneyPrinterTurbo | 94236 | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.  |
+| 132 | iluwatar/java-design-patterns | 94168 | Design patterns implemented in Java  |
+| 133 | nvm-sh/nvm | 93982 | Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions  |
+| 134 | oven-sh/bun | 93523 | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one  |
+| 135 | deepseek-ai/DeepSeek-R1 | 91983 |   |
+| 136 | microsoft/playwright | 91911 | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.   |
+| 137 | storybookjs/storybook | 90474 | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation  |
+| 138 | PanJiaChen/vue-element-admin | 90251 | :tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin  |
+| 139 | punkpeye/awesome-mcp-servers | 90002 | A collection of MCP servers.  |
+| 140 | TauricResearch/TradingAgents | 89789 | TradingAgents: Multi-Agents LLM Financial Trading Framework  |
+| 141 | bitcoin/bitcoin | 89583 | Bitcoin Core integration/staging tree  |
+| 142 | opencv/opencv | 89458 | Open Source Computer Vision Library  |
+| 143 | karpathy/autoresearch | 89171 | AI agents running research on single-GPU nanochat training automatically  |
+| 144 | mermaid-js/mermaid | 88933 | Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown  |
+| 145 | gohugoio/hugo | 88785 | The world’s fastest framework for building websites.  |
+| 146 | gin-gonic/gin | 88781 | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.  |
+| 147 | louislam/uptime-kuma | 88592 | A fancy self-hosted monitoring tool  |
+| 148 | ChatGPTNextWeb/NextChat | 88342 | ✨ Light and Fast AI Assistant. Support: Web \| iOS \| MacOS \| Android \|  Linux \| Windows  |
+| 149 | django/django | 88143 | The Web framework for perfectionists with deadlines.  |
+| 150 | home-assistant/core | 88071 | :house_with_garden: Open source home automation that puts local control and privacy first.  |
+| 151 | 3b1b/manim | 87974 | Animation engine for explanatory math videos  |
+| 152 | modelcontextprotocol/servers | 87863 | Model Context Protocol Servers  |
+| 153 | sveltejs/svelte | 87589 | web development for the rest of us  |
+| 154 | microsoft/ML-For-Beginners | 87531 | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all  |
+| 155 | MunGell/awesome-for-beginners | 87005 | A list of awesome beginners-friendly projects.  |
+| 156 | astral-sh/uv | 86908 | An extremely fast Python package and project manager, written in Rust.  |
+| 157 | zed-industries/zed | 86197 | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.  |
+| 158 | syncthing/syncthing | 85923 | Open Source Continuous File Synchronization  |
+| 159 | sherlock-project/sherlock | 85881 | Hunt down social media accounts by username across social networks  |
+| 160 | Stirling-Tools/Stirling-PDF | 85243 | #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere  |
+| 161 | thedotmack/claude-mem | 85095 | Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More  |
+| 162 | ByteByteGoHq/system-design-101 | 84985 | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.  |
+| 163 | vllm-project/vllm | 84855 | A high-throughput and memory-efficient inference and serving engine for LLMs  |
+| 164 | laravel/laravel | 84581 | Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.  |
+| 165 | localsend/localsend | 84394 | An open-source cross-platform alternative to AirDrop  |
+| 166 | PaddlePaddle/PaddleOCR | 84268 | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.  |
+| 167 | macrozheng/mall | 83947 | mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。  |
+| 168 | infiniflow/ragflow | 83888 | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs  |
+| 169 | realworld-apps/realworld | 83676 | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more  |
+| 170 | DopplerHQ/awesome-interview-questions | 83340 | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:   |
+| 171 | bregman-arie/devops-exercises | 82973 | Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions  |
+| 172 | animate-css/animate.css | 82627 | 🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.  |
+| 173 | Developer-Y/cs-video-courses | 82114 | List of Computer Science courses with video lectures.  |
+| 174 | tonsky/FiraCode | 81809 | Free monospaced font with programming ligatures  |
+| 175 | vitejs/vite | 81704 | Next generation frontend tooling. It's fast!  |
+| 176 | fighting41love/funNLP | 81509 | 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 PDF 或者 PPT、自然语言生成SQL语句（英文）、中文NLP数据增强（EDA）工具、英文NLP数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ULMFiT-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqGAN、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、Python音频数据增广库、中文全词覆盖BERT及两份阅读理解数据、ConvLab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于TensorFlow和BERT的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有NLP比赛的TOP方案、OpenCLaP：多领域开源中文预训练语言模型仓库、UER：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pC：基于上下文的汉语读音自动标记模块、Zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于BERT等最新语言模型的抽取式摘要提取、Python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、StanfordNLP 0.2.0：纯Python版自然语言处理包、NeuralNLP-NeuralClassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：NeuroNER vs. BertNER、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的GPT2训练代码、ML-NLP - 机器学习(Machine Learning)NLP面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/NER/N元语法/HMM/代词消解/情感分析/拼写检查、XLM：Facebook的跨语言预训练语言模型、用基于BERT的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、CoupletAI - 基于CNN+Bi-LSTM+Attention 的自动对对联系统、抽象知识图谱、MiningZhiDaoQACorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、PDF表格数据提取工具 、 Graphbrain：AI开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 OCR 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、Python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练ALBERT模型 、Transformers 2.0 、基于大规模音频数据集Audioset的音频增强 、Poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、Amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 Python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、CHAMELEON：深度学习新闻推荐系统元架构 、 8篇论文梳理BERT相关模型进展与反思、DocSearch：免费文档搜索引擎、 LIDA：轻量交互式对话标注工具 、aili - the fastest in-memory index in the East 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的Python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、PySS3：面向可解释AI的SS3文本分类器机器可视化工具 、中文NLP数据集列表、COPE - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、PreNLP：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的GPT2模型：GPT2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(Leaderboards、Datasets、Papers)、(Colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、NLP数据增广资源集、微软对话机器人框架 、 GitHub Typo Corpus：大规模GitHub多语言拼写错误/语法错误数据集、TextCluster：短文本聚类预处理模块 Short text cluster、面向语音识别的中文文本规范化、BLINK：最先进的实体链接库、BertPunc：基于BERT的最先进标点修复模型、Tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spaCy 医学文本挖掘与信息提取 、 NLP任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(MOSNet, BSSEval, STOI, PESQ, SRMR)、 用138GB语料训练的法文RoBERTa预训练语言模型 、BERT-NER-Pytorch：三种不同模式的BERT中文NER实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年NLP亮点回顾、 Chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、LineFlow：面向所有深度学习框架的NLP数据高效加载器、中文医学NLP公开资源整理 、MedQuAD：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、Transfer Learning in Natural Language Processing (NLP) 、面向语音识别的中文/英文发音辞典、Tokenizers：注重性能与多功能性的最先进分词器、CLUENER 细粒度命名实体识别 Fine Grained Named Entity Recognition、 基于BERT的中文命名实体识别、中文谣言数据库、NLP数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(Word Embedding)、命名实体识别(NER)、文本分类(Text Classificatin)、文本生成(Text Generation)、文本相似性(Text Similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、Python文本挖掘/NLP实战示例、 Blackstone：面向非结构化法律文本的spaCy pipeline和NLP模型通过同义词替换实现文本“变脸” 、中文 预训练 ELECTREA 模型: 基于对抗学习 pretrain Chinese Model 、albert-chinese-ner - 用预训练语言模型ALBERT做中文NER 、基于GPT2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：GPT2、BERT等transformer语言模型注意力交互可视化、CoVoST：Facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、Jiagu自然语言处理工具 - 以BiLSTM等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、NLP事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、CLUEDatasetSearch - 中英文NLP数据集：搜索所有中文NLP数据集，附常用英文NLP数据集 、medical_NER - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、Forte：灵活强大的自然语言处理pipeline工具集 、Python字符串相似性算法库、PyLaia：面向手写文档分析的深度学习工具包、TextFooler：针对文本分类/推理的对抗文本生成模块、Haystack：灵活、强大的可扩展问答(QA)框架、中文关键短语抽取工具  |
+| 177 | junegunn/fzf | 81320 | :cherry_blossom: A command-line fuzzy finder  |
+| 178 | spring-projects/spring-boot | 81046 | Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.  |
+| 179 | mlabonne/llm-course | 80510 | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.  |
+| 180 | jesseduffield/lazygit | 79828 | simple terminal UI for git commands  |
+| 181 | anuraghazra/github-readme-stats | 79785 | :zap: Dynamically generated stats for your github readmes  |
+| 182 | hoppscotch/hoppscotch | 79676 | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia  |
+| 183 | netdata/netdata | 79444 | The fastest path to AI-powered full stack observability, even for lean teams.  |
+| 184 | pewdiepie-archdaemon/odysseus | 79366 | Self-hosted AI workspace.   |
+| 185 | lobehub/lobehub | 79247 | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.  |
+| 186 | doocs/advanced-java | 78988 | 😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers \| 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识  |
+| 187 | swisskyrepo/PayloadsAllTheThings | 78786 | A list of useful payloads and bypass for Web Application Security and Pentest/CTF  |
+| 188 | OpenHands/OpenHands | 78736 | 🙌 OpenHands: AI-Driven Development  |
+| 189 | d2l-ai/d2l-zh | 78577 | 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。  |
+| 190 | coder/code-server | 78117 | VS Code in the browser  |
+| 191 | JuliusBrussee/caveman | 78015 | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman  |
+| 192 | Z4nzu/hackingtool | 77901 | ALL IN ONE Hacking Tool For Hackers  |
+| 193 | tensorflow/models | 77675 | Models and examples built with TensorFlow  |
+| 194 | ventoy/Ventoy | 77619 | A new bootable USB solution.  |
+| 195 | nomic-ai/gpt4all | 77382 | GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.  |
+| 196 | elastic/elasticsearch | 77194 | Free and Open Source, Distributed, RESTful Search Engine  |
+| 197 | FortAwesome/Font-Awesome | 76698 | The iconic SVG, font, and CSS toolkit  |
+| 198 | MisterBooo/LeetCodeAnimation | 76603 | Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）  |
+| 199 | sdmg15/Best-websites-a-programmer-should-visit | 76214 | :link: Some useful websites for programmers.  |
+| 200 | awesomedata/awesome-public-datasets | 76175 | A topic-centric list of HQ open datasets.  |
